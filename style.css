@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 375px) {
+    /* for mobile */
+
+    body {
+        background-color:#EDF2F8;
+        margin: 20% 6%;
+        font-size: 13px;;
+    }
+
+    .mainHeader {
+        background-color: white;
+    }
+
+    .main {
+        padding: 6% 10%;
+    }
+    
+    #headerBackground {
+        background-image: url(images/drawers.jpg);
+        background-position: top;
+        background-size: cover;
+        height: 219px;
+    }
+
+
+
+    .headerDesc {
+        font-family: 'Manrope', sans-serif;
+    }
+
+    .headerDesc p:nth-child(1) {
+        font-weight: 500;
+        color: hsl(217, 19%, 35%);
+    }
+
+    .headerDesc p:nth-child(2) {
+        font-weight: 700;
+        color: hsl(214, 17%, 51%);
+    }
+}
+
+git config --global user.name "TheChampion96"
+git config --global user.email Kadjmali@gmail.com
+
+
+
+

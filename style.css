@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 625px) {
     /* for mobile */
 
     body {
@@ -13,6 +13,7 @@
 
     .mainHeader {
         background-color: white;
+        border-radius: 10px;
     }
 
     .main {
@@ -24,6 +25,8 @@
         background-position: top;
         background-size: cover;
         height: 219px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
 
@@ -41,11 +44,95 @@
         font-weight: 700;
         color: hsl(214, 17%, 51%);
     }
+
+    .flex {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icon > img{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+
+    .personDetails {
+       margin: auto 0;
+       /* padding-left: 20px; */
+    }
+
+    .personDetails > h5 {
+        margin: auto 0;
+        font-size: 19px;
+        font-family: 'Manrope', sans-serif;
+     }
+
+     .personDetails > h5:nth-child(1) {
+        font-weight: 500;
+        color: hsl(217, 19%, 35%);
+
+     }
+
+     .personDetails > h5:nth-child(2) {
+        font-weight: 700;
+        color: hsl(214, 17%, 51%);
+     }
+
+     .share {
+        border-radius: 100%;
+        background-color: hsl(210, 46%, 95%);
+        /* background-color: black; */
+        height: 25px;
+        width: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto 0;
+        margin-left: 15%;
+    }
+
+    .share > img {
+        height: 12px;
+        width: 12px;
+    }
+
+    .attribution{
+        display: none;
+    }
+
+    .social-media{
+        background-color: hsl(217, 19%, 35%);
+        display: flex;
+        justify-content: center;
+
+        align-items: center;
+        margin: auto 0;
+        padding: 1% 10%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .social-media > p{
+        color: white;
+        margin-right: 25%;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        color: hsl(214, 17%, 51%);
+        text-transform: uppercase;
+    }
+
+    .social-media > img{
+        height: 20px;
+        width: 20px;
+        margin: 2%;
+    }
+
+    .social-media > :last-child {
+        margin-left: 25%;
+    }
+
 }
-
-git config --global user.name "TheChampion96"
-git config --global user.email Kadjmali@gmail.com
-
 
 
 
